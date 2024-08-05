@@ -1,7 +1,6 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-import './App.css'
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 
 function App() {
@@ -9,12 +8,10 @@ function App() {
 
   return (
     <>
-    <Router>
+    
       <Navbar />
+      <Home />
       
-        <Route path='/' exact />
-      
-      </Router>
     </>
   );
 }
