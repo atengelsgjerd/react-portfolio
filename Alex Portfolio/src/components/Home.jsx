@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import SectionList from './SectionList';
+
+import Projects from './Projects';
 import useFetch from '../useFetch';
 
 const Home = () => {
-  const { data: sections, isPending, error} = useFetch('http://localhost:8000/projects')
+  const { data: projects, isPending, error} = useFetch('http://localhost:8000/projects')
 
    
 
@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home">
             {error && <div>{error}</div>}
             {isPending && <div>Loading...</div>}
-            {sections && <SectionList sections={sections} title="About Me" />}
+            {projects && <Projects projects={projects} title="About Me" />}
 
         </div>
     );
