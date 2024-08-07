@@ -1,19 +1,20 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import SectionList from './SectionList';
+import useFetch from '../useFetch';
 
 const Home = () => {
-   const [sections, setSection] = useState([
-    {title: 'About Me', body: 'lorem ipsum...', author: 'Alex', id:1},
-    {title: 'Portfolio', body: 'lorem ipsum...', author: 'Alex', id:2},
-    {title: 'Resume', body: 'lorem ipsum...', author: 'Alex', id:3}
-   ])
-    return ( 
+  const { data: sections, isPending, error} = useFetch('http://localhost:8000/projects')
+
+   
+
+    return (
         <div className="home">
-          
-            <SectionList sections={sections} title="About Me"/>
-            <SectionList sections={sections.filter((section) => section.title === 'Portfolio')} title ="Portfolio"/>
+            {error && <div>{error}</div>}
+            {isPending && <div>Loading...</div>}
+            {sections && <SectionList sections={sections} title="About Me" />}
+
         </div>
-     );
+    );
 }
- 
+
 export default Home;
