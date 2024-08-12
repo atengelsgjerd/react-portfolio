@@ -15,7 +15,7 @@ function Navbar() {
             <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
             {/* </a> */}
             {/* <a className="nav-item"> */}
-            <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>Projects</Link>
+            <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
             {/* </a> */}
             {/* <a className="nav-item"> */}
             <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>

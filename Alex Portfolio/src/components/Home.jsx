@@ -1,17 +1,17 @@
 
-import Projects from './Projects';
-import useFetch from '../useFetch';
+// import useFetch from '../useFetch';
+import About from './About';
 
 const Home = () => {
-  const { data: projects, isPending, error} = useFetch('http://localhost:8000/projects')
+//   const { data: about, isPending, error} = useFetch('http://localhost:8000/about')
 
    
 
     return (
         <div className="home">
-            {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>}
-            {projects && <Projects projects={projects} title="About Me" />}
+            {/* {error && <div>{error}</div>}
+            {isPending && <div>Loading...</div>} */}
+             <About  title="About Me" />
 
         </div>
     );

@@ -48,3 +48,26 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+
+.section-preview a{
+  text-decoration: none;
+}
+
+.project-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.project-details div {
+  margin: 20px 0;
+}
+.section-preview img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.project-details img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
