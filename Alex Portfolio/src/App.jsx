@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import ProjectDetails from './components/ProjectDetails';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import ProjectDetails from './pages/ProjectDetails';
+import Resume from './pages/Resume';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/projects/:id" element={<ProjectDetails/>}/>
+          <Route path="/resume" element={<Resume/>}/>
 
 
          
