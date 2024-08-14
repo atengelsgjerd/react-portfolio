@@ -1,7 +1,9 @@
 import image from "../src/assets/datenight.png";
 import image2 from "../src/assets/bootCampBuddy.png";
 import image3 from "../src/assets/README.png";
-
+import image4 from "../src/assets/taskBoard.png";
+import image5 from "../src/assets/noteTaker.png";
+import image6 from "../src/assets/techBlog.png";
 const projects =
 [
     {
@@ -30,7 +32,35 @@ const projects =
         "link": "",
         "github": "https://github.com/atengelsgjerd/Bootcamp-Buddy",
         "technologies": ["HTML", "JavaScript", "Node.js", "Inquirer"]
-    }
+    },
+    {
+        "title": "Task Board",
+        "description": "A simple task board application that allows a team to manage project tasks.",
+        "image": image4,
+        "id": 4,
+        "link": "https://atengelsgjerd.github.io/Task-Board/",
+        "github": "https://github.com/atengelsgjerd/Task-Board",
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "Express.js"]
+    },
+    {
+        "title": "Note Taker",
+        "description": "This application allows the user to keep track of any notes they may want to keep.",
+        "image": image5,
+        "id": 5,
+        "link": "https://take-notes-b9qc.onrender.com/",
+        "github": "https://github.com/atengelsgjerd/Take-Notes",
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "Express.js"]
+    },
+    {
+        "title": "Tech Blog",
+        "description": "This is a blog website for any web developers who want to read and interact with other developers who have a passion for coding and developing websites and applications.",
+        "image": image6,
+        "id": 6,
+        "link": "https://tech-blog-rbkm.onrender.com",
+        "github": "https://github.com/atengelsgjerd/Tech-Blog",
+        "technologies": ["HTML", "Handlebars", "CSS", "Bootstrap", "JavaScript", "Express.js", "PostgreSQL", "Sequelize", "bcrypt", "Axios", "Render"]
+    },
+
 ];
 
 export default projects;

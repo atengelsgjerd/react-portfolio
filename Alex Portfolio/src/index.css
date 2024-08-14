@@ -4,6 +4,7 @@
 * {
   margin: 0;
   font-family: "Quicksand";
+  background-color: #C0E0DE;
   color: #333;
 }
 .navbar {
@@ -13,10 +14,9 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  background-color: #3C474B !important;
 }
-.navbar h1 {
-  color: #f1356d;
-}
+
 .navbar .links {
   margin-left: auto;
 }
@@ -26,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #3C474B;
 }
 .content {
   max-width: 600px;
@@ -38,16 +38,25 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  background-color: #3C474B;
+}
+.section-preview p {
+  background-color: #3C474B;
+  color: white;
 }
 
 .section-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px white;;
+  
 }
 .section-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: white;
+  background-color: #3C474B;
+
   margin-bottom: 8px;
 }
+
 
 .section-preview a{
   text-decoration: none;
@@ -55,7 +64,7 @@
 
 .project-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color:rgb(102, 131, 151);
   margin-bottom: 10px;
 }
 .project-details div {
@@ -86,7 +95,7 @@ input {
   padding: 5px;
   outline: none;
   border-radius: 5px;
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid rgb(2, 0, 0);
 
   &:focus {
     border: 2px solid rgba(0, 206, 158, 1);
@@ -102,7 +111,7 @@ textarea {
   padding: 5px;
   outline: none;
   border-radius: 5px;
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid rgb(8, 0, 0);
 
   &:focus {
     border: 2px solid rgba(0, 206, 158, 1);
@@ -115,4 +124,18 @@ textarea {
   background: rgb(102, 131, 151);
   color: white;
   border: none;
+}
+.footer {
+  background-color: #3C474B !important;
+}
+.footer a {
+  background-color: #3C474B !important;
+}
+.footer a img {
+  background-color: #3C474B !important;
+  color: white;
+}
+
+.icon:hover {
+  filter: brightness(5) invert(5);
 }
