@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Resume from './pages/Resume';
 
-
+// this is the App component that will be rendered in the main.jsx file with routes to each page
 function App() {
  
 

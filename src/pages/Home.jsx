@@ -1,16 +1,13 @@
-
-// import useFetch from '../useFetch';
 import About from '../components/About';
 
+// This is the Home page that will be rendered in the App.jsx file
 const Home = () => {
-//   const { data: about, isPending, error} = useFetch('http://localhost:8000/about')
+
 
    
 
     return (
         <div className="home">
-            {/* {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>} */}
              <About  title="About Me" />
 
         </div>

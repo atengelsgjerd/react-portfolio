@@ -2,6 +2,7 @@ import IconLink from "./IconLink";
 import LinkedInSVG from "../assets/linkedin.svg";
 import GitHubSVG from "../assets/github.svg";
 
+// Footer component
 function Footer() {
     return (
         <div className="footer d-flex justify-content-center align-items-center gap-2 bg-body-secondary">

@@ -1,6 +1,6 @@
 
 
-
+// This is the Resume page that will be rendered in the App.jsx file
 const Resume = () => {
     return (  
         <div>

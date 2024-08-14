@@ -1,7 +1,7 @@
 import {Container, Navbar, Nav} from 'react-bootstrap';
 
 
-
+// this is the header component that will be rendered in the App.jsx file
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">

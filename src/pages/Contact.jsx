@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+// this is the contact component that will be rendered in the App.jsx file
 const Contact = () => {
     const form = useRef();
 

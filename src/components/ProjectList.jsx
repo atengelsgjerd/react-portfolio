@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import projects from "../../data/projects";
 
+// this is the project list component that will be rendered in the Projects.jsx file
 export default function ProjectList () {
     
     

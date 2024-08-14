@@ -1,5 +1,5 @@
 import profilePic from '../assets/Alex.jpg';
-
+// This is the about component that will be rendered in the Home.jsx file
 const About = () => {
     
 

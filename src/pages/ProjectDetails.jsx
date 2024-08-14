@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import projectData from "../../data/projects";
-// import useFetch from "../useFetch";
 
+// this is the project details page that will be rendered in the App.jsx file
 export default function ProjectDetails  () {
     const { id } = useParams();
     const projectSingle = projectData.find((project) => project.id == id);
